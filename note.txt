@@ -1,0 +1,7 @@
+1，下载git 
+2，生成ssh key
+$ ssh-keygen -t rsa -C "youremail@example.com"
+3，在github settings->SSH and GPG keys中添加ssh keys
+4，在电脑中创建文件夹用来存放代码
+5，选择gitbash here,键入git init会生成.git文件
+6，$ git clone https://github.com/Rainno/vue-es6-webPack.git
